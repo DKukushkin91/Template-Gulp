@@ -1,15 +1,15 @@
 {
 	"type": "module",
-	"name": "",
+	"name": "Template",
 	"version": "1.0.0",
-	"description": "Тестовое задание",
+	"description": "Gulp",
 	"main": "index.js",
 	"scripts": {
 		"start": "gulp",
 		"build": "gulp production"
 	},
 	"author": "Dmitrij Kukushkin",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"@babel/core": "^7.18.6",
 		"@babel/preset-env": "^7.18.6",
