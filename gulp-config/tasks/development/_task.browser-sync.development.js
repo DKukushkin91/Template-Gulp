@@ -7,16 +7,6 @@ export const taskBrowserSyncDevelopment = () => {
 		server: {
 			baseDir: PRODUCTION_ROUTE.BUILD,
 		},
-		callbacks: {
-			ready: function (err, bs) {
-				bs.addMiddleware("*", function (req, res) {
-					res.writeHead(302, {
-						location: "404.html"
-					});
-					res.end("Redirecting!");
-				});
-			}
-		},
 		logPrefix: 'BS-HTML:',
 		logLevel: 'info',
 		logConnections: true,

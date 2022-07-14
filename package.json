@@ -1,6 +1,6 @@
 {
 	"type": "module",
-	"name": "Presspass",
+	"name": "Шаблон для вёрстки проектов",
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
